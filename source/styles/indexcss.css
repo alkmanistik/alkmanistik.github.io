@@ -48,6 +48,8 @@
 
 @media (max-width:1000px){
     .main-container{
+        display: -webkit-box; 
+        display: -ms-flexbox;
         display: grid;
         margin-top: 7.5vh;
         .left-bar{
@@ -64,6 +66,8 @@
 }
 @media (max-width:600px){
     .main-container{
+        display: -webkit-box; 
+        display: -ms-flexbox;
         display: grid;
         grid-template-rows: repeat(2);
         margin-top: 5vh;

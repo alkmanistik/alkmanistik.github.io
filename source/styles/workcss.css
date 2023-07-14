@@ -20,6 +20,8 @@
 }
 
 .grid-row-div{
+    display: -webkit-box; 
+    display: -ms-flexbox;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     justify-items: center;

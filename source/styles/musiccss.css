@@ -40,6 +40,8 @@
 }
 @media (max-width:1100px){
     .main-container{
+        display: -webkit-box; 
+        display: -ms-flexbox;
         display: grid;
         margin-top: 7.5vh;
         grid-template-rows: repeat(2);

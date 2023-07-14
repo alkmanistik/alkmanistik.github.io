@@ -16,7 +16,9 @@ body{
 .navbar-toggler{
     background-color: white;
 }
-.main-container{    
+.main-container{  
+    display: -webkit-box; 
+    display: -ms-flexbox;  
     display: grid;
     grid-template-columns: repeat(12,1fr);
     grid-template-rows: repeat(1);
