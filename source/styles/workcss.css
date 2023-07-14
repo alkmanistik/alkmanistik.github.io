@@ -69,4 +69,8 @@
             grid-column: 1/13;
         }
     }
+    .card-img{
+        width: 40vh;
+        height: 40vh;
+    }
 }
