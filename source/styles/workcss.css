@@ -70,15 +70,10 @@
         }
     }
     .card{
-        width: 35vh;
-        height: auto;
+        width: 30vh;
     }
     .card-img{
         width: 100%;
         height: auto;
-    }
-    .card-body{
-        padding: 0;
-        padding-top: 0.5rem;
     }
 }
