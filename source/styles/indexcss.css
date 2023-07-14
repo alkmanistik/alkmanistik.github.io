@@ -1,27 +1,17 @@
 .left-bar{
-    grid-column: 1/6;
-    height: 70vh;
     justify-self: center;
-    max-width: 20em;
-    margin-left: 5vh;
-
-}
-
-.right-bar{
-    grid-column: 6/13;
+    padding-left: 12%;
+    padding-right: 12%;
 }
 
 .card-body{
     background-color: rgb(45, 45, 45);
     color: rgb(255, 255, 255);
+    padding-right: 0;
 }
 .card{
     border-style: solid;
     border-width: 0.2em;
-}
-.right-bar{
-    margin-left: 2em;
-    margin-right: 2em;
 }
 .logo{
     width: 3.5rem;
@@ -46,42 +36,24 @@
     height: 126px;
 }
 
-@media (max-width:1000px){
+@media (max-width: 992px){
     .main-container{
-        display: -webkit-box; 
-        display: -ms-flexbox;
-        display: grid;
-        margin-top: 7.5vh;
-        .left-bar{
-            grid-column: 1/6;
-            margin-left: 5vh;
-        }
-        .right-bar{
-            grid-column: 6/13;
-            .card{
-                margin-top: 1rem;
-            }
-        }
+        margin-top: 5vh;
+    }
+    .left-bar{
+        justify-self: center;
+        padding-left: 0%;
+        padding-right: 0%;
     }
 }
-@media (max-width:600px){
-    .main-container{
-        display: -webkit-box; 
-        display: -ms-flexbox;
-        display: grid;
-        grid-template-rows: repeat(2);
-        margin-top: 5vh;
-        .left-bar{
-            grid-column: 1/13;
-            margin: 5vh;
-        }
-        .right-bar{
-            margin-top: 2rem;
-            grid-column: 1/13;
-        }
-        .right-bar div .row{
-            margin: 0;
-        }
+@media (max-width: 768px){
+    .left-bar{
+        justify-self: center;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .right-bar{
+        margin-top: 2rem;
     }
 }
 @keyframes Animation-right-bar {
