@@ -56,6 +56,9 @@ h3{
 .fouth{
     animation: myAnim 4s linear 0s 1 normal none;
 }
+.right-img{
+    flex-direction: row-reverse;
+}
 @media (max-width: 1175px){
     .main-container p{
         font-size: 1rem;
@@ -70,6 +73,9 @@ h3{
     }
     .yt{
         padding-left: 0;
+    }
+    .right-bar div p{
+        text-align: center;
     }
 }
 @keyframes myAnim {
