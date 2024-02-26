@@ -16,6 +16,10 @@
     width: 3.5rem;
     animation: Animation-right-bar 1s cubic-bezier(0.55, 0, 1, 0.45) 0.3s 1 normal none;
 }
+.row{
+    justify-content: center;
+    align-items: center;
+}
 .link-away{
     margin-top: 0.5rem;
     font-size: 1.5rem;
