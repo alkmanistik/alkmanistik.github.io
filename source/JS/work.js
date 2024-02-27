@@ -22,9 +22,11 @@ function setItem(index) {
       })
     arrayImage.forEach((item) => {
         item.style.backgroundColor = 'rgb(33, 37, 41)';
+        item.style.border = '0px';
       })
     arrayBlock[index].style.display = 'block';
     arrayImage[index].style.backgroundColor = 'black';
+    arrayImage[index].style.border = '1px dashed white';
 }
 
 function setAseprite(){
