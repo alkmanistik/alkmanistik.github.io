@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Сайт портфолио Фаттахова Эрика">
+    <meta name="keywords" content="Alkmanistik, Эрик Фаттахов, Alkmanistik Website">
+    <meta name="author" content="Alkmanistik">
     <title>Alkmanistik's website</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
@@ -52,29 +55,11 @@
                       <div class="card">
                           <!-- <img src="..." class="card-img-top" alt="..."> -->
                           <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-                              <div class="carousel-indicators">
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                              <div class="carousel-indicators" id="indicatorsCarousel">
+                                
                               </div>
-                              <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                  <img src="source\images\I.jpg" class="-block w-100" alt="...">
-                                </div>
-                                <div class="carousel-item">
-                                  <img src="source/images/I2.jpg" class="d-block w-100" alt="...">
-                                </div>
-                                <div class="carousel-item">
-                                  <img src="source/images/ЯсАйсылу.jpg" class="d-block w-100" alt="...">
-                                </div>
-                                <div class="carousel-item">
-                                  <img src="source/images/Цезарь.jpg" class="-block w-100" alt="...">
-                                </div>
-                                <div class="carousel-item">
-                                  <img src="source/images/Нежнятинка.jpg" class="d-block w-100" alt="...">
-                                </div>
+                              <div class="carousel-inner" id="profileCarousel">
+                                
                               </div>
                               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -95,60 +80,9 @@
                   </div>
                   <div class="col-lg-7 col-md-6 col-sm-12 right-bar">
                       <div class="container-fluid">
-                        <div class="row">
-                          <h3>Мои контакты:</h3>
-                          <div class="col-lg-6">
-                            <div class="card">
-                              <div class="card-body">
-                                <h5 class="card-title">Steam</h5>
-                                <a class="link-away" target="_blank" href="https://steamcommunity.com/id/alkmanist/"><img class="logo"src="source/images/Steam_Logo.png" alt="Steam Logo"><span>Alkmanistik</span></a>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-lg-6">
-                            <div class="card">
-                              <div class="card-body">
-                                <h5 class="card-title">Telegram</h5>
-                                <a class="link-away" target="_blank" href="https://t.me/Alkmanistik"><img class="logo"src="source/images/Telegram_Logo.png" alt="Telegram Logo"><span>Alkmanistik</span></a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="row">
-                          <div class="col-lg-6">
-                            <div class="card">
-                              <div class="card-body ">
-                                <h5 class="card-title">Discord</h5>
-                                <a class="link-away" target="_blank" href="https://discord.gg/SAxHf7R"><img class="logo"src="source\images\Discord_Logo.png" alt="Discord Logo"><span>alkmanistik</span></a>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-lg-6">
-                            <div class="card">
-                              <div class="card-body">
-                                <h5 class="card-title">ВКонтакте</h5>
-                                <a class="link-away" target="_blank" href="https://vk.com/alkmanistik"><img class="logo"src="source\images\Vk_Logo.png" alt="Vk Logo"><span>alkmanistik</span></a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="row">
-                          <div class="col-lg-6">
-                            <div class="card">
-                              <div class="card-body ">
-                                <h5 class="card-title">GitHub</h5>
-                                <a class="link-away" target="_blank" href="https://github.com/alkmanistik"><img class="logo"src="source\images\GitHub_Logo.png" alt="GitHub Logo"><span>alkmanistik</span></a>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-lg-6">
-                            <div class="card">
-                              <div class="card-body">
-                                <h5 class="card-title">Twitter</h5>
-                                <a class="link-away" target="_blank" href="https://twitter.com/Alkmanistik"><img class="logo"src="source\images\Twitter_Logo.png" alt="Twitter Logo"><span>Alkmanistik</span></a>
-                              </div>
-                            </div>
-                          </div>
+                        <div class="row" id="profileContact">
+                            <h3>Мои контакты:</h3>
+                          
                         </div>
                       </div>
                   </div>
@@ -156,6 +90,7 @@
             </div>
         </div>
     </all-page>
+    <script src="source/JS/profile.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous">
