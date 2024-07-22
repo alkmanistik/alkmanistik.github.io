@@ -61,23 +61,23 @@ class CardData{
 
 var asepriteArray = [
     new CardData(
-        title = "Дэвид Кинг (Dead by Daylight)",
+        title = "David King (Dead by Daylight)",
         image = "davidKing.jpg",
     ),
     new CardData(
-        title = "Hoodwink (Дота 2)",
+        title = "Hoodwink (Dota 2)",
         image = "hoodwink.gif",
     ),
     new CardData(
-        title = "Алкманистик (Фрэн Боу)",
+        title = "Fran bow",
         image = "franBow.jpg",
     ),
     new CardData(
-        title = "Сэм (Death Stranding)",
+        title = "Sam (Death Stranding)",
         image = "sam.png",
     ),
     new CardData(
-        title = "BT (Смерть Стрендинг)",
+        title = "BT (Death Stranding)",
         image = "bt.png",
     ),
 ];
@@ -105,7 +105,7 @@ var gitHubArray = [
     new CardData(
         title = "Личный сайт портфолио",
         image = "website.png",
-        desciption = null,
+        desciption = "Сайт о себе и мои работы",
         gitHubLink = "https://github.com/alkmanistik/alkmanistik.github.io",
     ),
     new CardData(
