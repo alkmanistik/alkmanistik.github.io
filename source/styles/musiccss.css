@@ -1,5 +1,5 @@
 .left-bar{
-    justify-self: center;
+    /* justify-self: center; */
 }
 .main-container{
     margin: 0;
@@ -24,12 +24,13 @@ h3{
 
 .left-bar img{
     width: 100%;
-    padding-left: 5%;
-    filter: drop-shadow(0px 0px 23px #FFFFFF);
+    padding-right: 5%;
+    padding-top: 5%;
+    filter: drop-shadow(0px 0px 0 #FFFFFF);
 }
 .left-bar img:hover{
     width: 100%;
-    filter: drop-shadow(0px 0px 10px #FFFFFF);
+    filter: drop-shadow(0px 0px 1px #FFFFFF);
 }
 
 /* .shadow{
@@ -85,6 +86,11 @@ h3{
     }
     .right-bar div p{
         text-align: center;
+    }
+    .left-bar img{
+        width: 100%;
+        padding: 5%;
+        filter: drop-shadow(0px 0px 0 #FFFFFF);
     }
 }
 @keyframes myAnim {

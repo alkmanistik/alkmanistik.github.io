@@ -12,29 +12,41 @@ var musicAuthor = document.getElementById("musicAuthor");
 
 var musicAuthorArray = [ 
     new MusicAuthor(
-        name = "Sia",
-        description = "Sia просто хороший человек, который делает очень много для других, и пишет музыку она, как будто, лично для вас, на её песнях я вырос.",
-        image = "sia.jpg",
-        link = "https://music.youtube.com/channel/UCaPIRYCKs51kvD4jrbwMH1w?feature=share"
+        name = "Charli XCX",
+        description = "Charli обычная тусовщица и оторва с крутыми битами и смыслами",
+        image = "charlixcx.jpeg",
+        link = "https://open.spotify.com/artist/25uiPmTg16RbhZWAqwLBy5?si=yeJBEu9FTZCb7-0A4okOyg"
+    ),
+    // new MusicAuthor(
+    //     name = "Sia",
+    //     description = "Sia просто хороший человек, который делает очень много для других, и пишет музыку она, как будто, лично для вас, на её песнях я вырос.",
+    //     image = "sia.jpg",
+    //     link = "https://open.spotify.com/artist/5WUlDfRSoLAfcVSX1WnrxN?si=G0iCM2YFRZaXGdpbljLVIQ"
+    // ),
+    new MusicAuthor(
+        name = "Florence + The Machine",
+        description = "Florence исполнительница, которая живёт в своих песнях, она всегда ориентируется на эмоции, которые несут её песни.",
+        image = "florence.jpg",
+        link = "https://open.spotify.com/artist/1moxjboGR7GNWYIMWsRjgG?si=5zJXPGFpSiOXXY_vUJKarA"
+    ),
+    new MusicAuthor(
+        name = "Troye Sivan",
+        description = "Troye парень без границ со своим стилем",
+        image = "troye.jpg",
+        link = "https://open.spotify.com/artist/3WGpXCj9YhhfX11TToZcXP?si=iCuLHb_iSVSzvx0DoAo_JA"
     ),
     new MusicAuthor(
         name = "YungBlud",
         description = "YungBlud обладатеть своего неповторимого стиля, который не такой, как все, поёт о том, что все мы разные и нужно быть терпимым ко всем.",
         image = "yungblud.jpg",
-        link = "https://music.youtube.com/channel/UCMrCoizKiBxqeg5pTpBXn1A?feature=share"
+        link = "https://open.spotify.com/artist/6Ad91Jof8Niiw0lGLLi3NW?si=_GY84uN5RESfZQhfLhvcog"
     ),
     new MusicAuthor(
         name = "Aurora",
         description = "Aurora является нежным началом всего человечества, она думает и смотрит далеко вперёд, её песни полны символизма, наивным, но великолепным.",
         image = "aurora.jpg",
-        link = "https://music.youtube.com/channel/UC4G-AJa7kn8oumI6TT2WXYw?feature=share"
+        link = "https://open.spotify.com/artist/1WgXqy2Dd70QQOU7Ay074N?si=8qzywk7uT0W2yvY8ZCNiPQ"
     ),
-    new MusicAuthor(
-        name = "Florence + The Machine",
-        description = "Florence + The Machine исполнительница, которая живёт в своих песнях, она всегда ориентируется на эмоции, которые несут её песни.",
-        image = "florence.jpg",
-        link = "https://music.youtube.com/channel/UCkmCGbrGa7yNrRl_NHrOaTw?feature=share"
-    )
 ]
 
 
