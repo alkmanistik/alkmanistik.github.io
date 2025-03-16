@@ -36,7 +36,7 @@ export default function WorksPage() {
         <div className="grid gap-8 mt-4 md:grid-cols-2 xl:grid-cols-3">
             {workList.map((work, index) => (
                 <div key={index} className="flex justify-center">
-                    <div className="card bg-base-200 w-96 shadow-sm">
+                    <div className="card bg-base-100 w-96 shadow-sm">
                         <figure className="px-10 pt-10">
                             <img
                                 src={work.imageSrc}
