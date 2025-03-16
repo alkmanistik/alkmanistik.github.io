@@ -1,101 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Сайт портфолио Фаттахова Эрика">
-    <meta name="keywords" content="Alkmanistik, Эрик Фаттахов, Alkmanistik Website">
-    <meta name="author" content="Alkmanistik">
-    <title>Alkmanistik's website</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet" href="source/styles/commoncss.css">
-    <link rel="stylesheet" href="source/styles/indexcss.css">
-    <link rel="apple-touch-icon" sizes="180x180" href="source/files/favicon_io/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="source/files/favicon_io/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="source/files/favicon_io/favicon-16x16.png">
-    <link rel="manifest" href="source/files/favicon_io/site.webmanifest">
-    <script src="https://discord.com/api/guilds/331986685845962753/widget.json"></script>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/x-icon" href="./public/favicon_io/favicon.ico" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./public/favicon_io/favicon-16x16.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./public/favicon_io/favicon-32x32.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./public/favicon_io/apple-touch-icon.png" />
+  <link rel="manifest" href="./public/favicon_io/site.webmanifest" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Сайт с моими работами">
+  <meta name="keywords" content="Alkmanistik, Эрик Фаттахов">
+  <title>Alkmanistik's website</title>
 </head>
-
 <body>
-    <all-page>
-        <div class="header">
-            <nav class="navbar navbar-expand-lg bg-dark">
-                <div class="container-fluid nav-bar">
-                    <a class="navbar-brand" href="/">Alkmanistik's website</a>
-                    <div class="nav-buttom">
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                            aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                    </div>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="/">Главная</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="work.html">Мои работы</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="music.html">Любимая музыка</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
-        <div class="section">
-            <div class="container-fluid main-container">
-                <div class="row">
-                  <div class="col-lg-5 col-md-6 col-sm-12 left-bar">
-                      <div class="card">
-                          <!-- <img src="..." class="card-img-top" alt="..."> -->
-                          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-                              <div class="carousel-indicators" id="indicatorsCarousel">
-                                
-                              </div>
-                              <div class="carousel-inner" id="profileCarousel">
-                                
-                              </div>
-                              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                              </button>
-                              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                              </button>
-                            </div>
-                          <div class="card-body">
-                            <p class="card-text"><h2>Alkmanistik</h2></p>
-                            <h5>Эрик Фаттахов</h5>
-                            <h6>Дата рождения: 2004 г.</h6>
-                            <h6>Знак зодиака: Лев</h6>
-                          </div>
-                        </div>
-                  </div>
-                  <div class="col-lg-7 col-md-6 col-sm-12 right-bar">
-                      <div class="container-fluid">
-                        <div class="row" id="profileContact">
-                            <h3>Мои контакты:</h3>
-                          
-                        </div>
-                      </div>
-                  </div>
-                </div>
-            </div>
-        </div>
-    </all-page>
-    <script src="source/JS/profile.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-        crossorigin="anonymous">
-    </script>
-    
+<div id="root"></div>
+<script type="module" src="/src/main.tsx"></script>
 </body>
-
 </html>
