@@ -20,6 +20,7 @@ import dices from "../assets/mobileWorks/dices.png";
 import greenWorld from "../assets/mobileWorks/greenWorld.png";
 
 import alkWeb from "../assets/gitHubWorks/alkWeb.png";
+import alkify from "../assets/gitHubWorks/alkify.png";
 
 import watchShop from "../assets/figmaWorks/watchShop.png";
 
@@ -184,6 +185,24 @@ export const gitHubWorks: Array<Work> = [
                 iconName: "GitHub",
                 iconHref:
                     "https://github.com/alkmanistik/alkmanistik.github.io",
+                iconSrc: gitHub,
+            },
+        ],
+    },
+    {
+        title: "Alkify",
+        imageSrc: alkify,
+        description:
+            "Сайт аналог Spotify, Frontend - React, Backend - Java Spring Boot",
+        linkList: [
+            {
+                iconName: "Frontend",
+                iconHref: "https://github.com/alkmanistik/alkify-music-react",
+                iconSrc: gitHub,
+            },
+            {
+                iconName: "Backend",
+                iconHref: "https://github.com/alkmanistik/alkify-music-api",
                 iconSrc: gitHub,
             },
         ],
